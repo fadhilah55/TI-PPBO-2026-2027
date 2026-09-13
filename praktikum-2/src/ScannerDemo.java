@@ -9,5 +9,6 @@ public class ScannerDemo {
 
         int umur = sc.nextInt();
         System.out.println("Halo " + nama + ", umur Anda " + umur + " tahun.");
+
     }
 }
