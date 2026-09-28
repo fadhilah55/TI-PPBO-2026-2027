@@ -17,7 +17,7 @@ public class Latihan6 {
         System.out.print("\nArray Sebelum Diurutkan : ");
         tampilkanArray(array);
 
-        // proses buble sort
+        // proses buble sort ascending
         for (int i = 0; i < jumlah - 1; i++) {
             for (int j = 0; j < jumlah - 1 - i; j++) {
                 // Membandingkan elemen saat ini dengan elemen setelahnya
