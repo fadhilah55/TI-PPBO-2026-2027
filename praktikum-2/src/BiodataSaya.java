@@ -2,7 +2,7 @@ import java.util.Scanner;
 //Membuat Biodata sederhana
 public class BiodataSaya {
     public static void main(String[] args) {
-    /* -- Latihan nomor 1 -- */
+        System.out.println("Latihan nomor 1 ");
     //Mencetak nama, nim dan prodi pada baris terpisah
         System.out.println("Nama : Fadhilah");
         System.out.println("NIM : 2025573010135");
@@ -10,7 +10,7 @@ public class BiodataSaya {
 
         System.out.println();
 
-    /* -- Latihan nomor 2 -- */
+        System.out.println("Latihan nomor 2 ");
     //Memodifikasi program dengan mencetak nama dan nim pada baris yang sama
         System.out.print("Nama : Fadhilah");
         System.out.print("-");
@@ -19,7 +19,7 @@ public class BiodataSaya {
 
         System.out.println();
 
-    /*-- Latihan nomor 3 -- */
+        System.out.println("Latihan nomor 3 ");
     //Membuat program dengan mendeklarasikan variabel bertipe int, double, char dan boolean pada data pribadi
         int umur =19;
         double tinggiBadan = 155;
@@ -33,7 +33,7 @@ public class BiodataSaya {
 
         System.out.println();
 
-    /*-- Latihan nomor 4 --*/
+        System.out.println("Latihan nomor 4 ");
     //Konfersi suhu dari celsius ke fahreit
         Scanner scanner = new Scanner(System.in);
 
@@ -44,7 +44,7 @@ public class BiodataSaya {
 
         System.out.println();
 
-    /* -- Latihan nomor 5 -- */
+        System.out.println("Latihan nomor 5 ");
     //Menampilkan operasi aritmatika dan hasil perpandingan
 
         System.out.print ("Masukkan bilngan pertama : ");
