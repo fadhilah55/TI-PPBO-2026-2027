@@ -13,21 +13,24 @@ public class Persegi {
     }
 
     public static void main(String[] args) {
-        Persegi p1 = new Persegi(7);
-        Persegi p2 = new Persegi(6);
+        Persegi[] daftar = {
+                new Persegi(2),
+                new Persegi(5),
+                new Persegi(10),
+                new Persegi(7)
+        };
+        Persegi terbesar = daftar[0];
+        // Mencari luas terbesar menggunakan perulangan
+        for (int i = 1; i < daftar.length; i++) {
+            if (daftar[i].hitungluas() > terbesar.hitungluas()) {
+                terbesar = daftar[i];
+            }
+        }
 
-        System.out.println(" Perhitungan persegi 1 ");
-        System.out.println("Sisi  : " + p1.sisi);
-        System.out.println("Luas  : " + p1.hitungluas());
-        System.out.println("Keliling  : " + p1.hitungkeliling());
-
-        System.out.println();
-
-        System.out.println(" Perhitungan persegi 2 ");
-        System.out.println("Sisi  : " + p2.sisi);
-        System.out.println("Luas  : " + p2.hitungluas());
-        System.out.println("keliling  : " + p2.hitungkeliling());
-
+        System.out.println("Persegi dengan luas terbesar:");
+        System.out.println("Sisi  : " + terbesar.sisi);
+        System.out.println("Luas  : " + terbesar.hitungluas());
+        System.out.println("sisi  : " + terbesar.hitungkeliling());
     }
 
 }
