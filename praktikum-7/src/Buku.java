@@ -3,6 +3,7 @@ public class Buku {
     private String pengarang;
     private int tahunterbit;
 
+    //Constructor
     public Buku(String judul, String pengarang, int tahunterbit) {
         this.judul = judul;
         this.pengarang = pengarang;
@@ -12,13 +13,19 @@ public class Buku {
     public String getJudul() {
         return judul;
     }
-
     public String getPengarang() {
         return pengarang;
     }
-
     public int getTahunterbit() {
         return tahunterbit;
+    }
+
+    //Setter untuk judul  & pengarang
+    public void setJudul(String judul) {
+        this.judul = judul;
+    }
+    public void setPengarang(String pengarang) {
+        this.pengarang = pengarang;
     }
 
     public void Data() {
